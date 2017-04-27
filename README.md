@@ -1,6 +1,6 @@
 # npmtest-lockfile
 
-#### test coverage for  [lockfile (v1.0.3)](https://github.com/npm/lockfile#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-lockfile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lockfile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lockfile.svg)](https://travis-ci.org/npmtest/node-npmtest-lockfile)
+#### basic test coverage for  [lockfile (v1.0.3)](https://github.com/npm/lockfile#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-lockfile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lockfile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lockfile.svg)](https://travis-ci.org/npmtest/node-npmtest-lockfile)
 
 #### A very polite lock file utility, which endeavors to not litter, and to wait patiently for others.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-lockfile/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-lockfile/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-lockfile/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-lockfile/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-lockfile/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-lockfile/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-lockfile/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-lockfile/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-lockfile/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-lockfile/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-lockfile/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-lockfile/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "postversion": "npm run changelog && git add CHANGELOG.md && git commit -m 'update changelog - '${npm_package_version}",
         "test": "tap test/*.js --cov"
     },
-    "version": "1.0.3"
+    "version": "1.0.3",
+    "bin": {}
 }
 ```
 

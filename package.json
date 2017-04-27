@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [lockfile (v1.0.3)](https://github.com/npm/lockfile#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-lockfile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lockfile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lockfile.svg)](https://travis-ci.org/npmtest/node-npmtest-lockfile)",
+    "description": "#### basic test coverage for  [lockfile (v1.0.3)](https://github.com/npm/lockfile#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-lockfile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lockfile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lockfile.svg)](https://travis-ci.org/npmtest/node-npmtest-lockfile)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "lockfile": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.27"
 }
